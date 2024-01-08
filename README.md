@@ -45,7 +45,7 @@ https://github.com/arynyestos/TrainCarbonFootprint/assets/33223441/fa269571-b85b
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
 - Fork this repository.
-- Create a new branch (git checkout -b feature/your-feature).
-- Commit your changes (git commit -am 'Add new feature').
-- Push to the branch (git push origin feature/your-feature).
+- Create a new branch (```git checkout -b feature/your-feature```).
+- Commit your changes (```git commit -am 'Add new feature'```).
+- Push to the branch (```git push origin feature/your-feature```).
 - Create a new Pull Request.
