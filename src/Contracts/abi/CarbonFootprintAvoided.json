@@ -1,0 +1,1369 @@
+{
+    "abi": [
+        {
+            "type": "constructor",
+            "inputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "function",
+            "name": "getCarbonFootPrintAvoided",
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "stateMutability": "view"
+        },
+        {
+            "type": "function",
+            "name": "updateCarbonFootprintAvoided",
+            "inputs": [
+                {
+                    "name": "_carbonAvoided",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "function",
+            "name": "updateToNewYear",
+            "inputs": [
+                {
+                    "name": "_newYear",
+                    "type": "uint16",
+                    "internalType": "uint16"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "event",
+            "name": "CarbonFootprintUpdated",
+            "inputs": [
+                {
+                    "name": "user",
+                    "type": "address",
+                    "indexed": true,
+                    "internalType": "address"
+                },
+                {
+                    "name": "carbonFootprintAvoided",
+                    "type": "uint256",
+                    "indexed": true,
+                    "internalType": "uint256"
+                }
+            ],
+            "anonymous": false
+        }
+    ],
+    "bytecode": {
+        "object": "0x60a06040526002805461ffff19166107e717905534801561001f57600080fd5b503360805260805161020a61003f6000396000610127015261020a6000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806311945f9914610046578063497dcf461461005b5780639025aed11461008c575b600080fd5b610059610054366004610169565b61009f565b005b60025461ffff1660009081526020818152604080832033845290915290205460405190815260200160405180910390f35b61005961009a366004610182565b61011c565b60025461ffff16600090815260208181526040808320338452909152812080548392906100cd9084906101ad565b909155505060025461ffff1660009081526020818152604080832033808552925280832054905190927fc6770c48060ba232e75b45b0c4c47d3dd1115b574020b61e1163849d565147cb91a350565b336001600160a01b037f0000000000000000000000000000000000000000000000000000000000000000161461015157600080fd5b6002805461ffff191661ffff92909216919091179055565b60006020828403121561017b57600080fd5b5035919050565b60006020828403121561019457600080fd5b813561ffff811681146101a657600080fd5b9392505050565b808201808211156101ce57634e487b7160e01b600052601160045260246000fd5b9291505056fea2646970667358221220565b7c6158320ec76e687442c13e6ee6df7093f9e39fb465a1c6335311fa468064736f6c63430008140033",
+        "sourceMap": "223:1440:22:-:0;;;525:27;;;-1:-1:-1;;525:27:22;548:4;525:27;;;852:51;;;;;;;;;-1:-1:-1;886:10:22;876:20;;223:1440;;;;;;;;;;;;",
+        "linkReferences": {}
+    },
+    "deployedBytecode": {
+        "object": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806311945f9914610046578063497dcf461461005b5780639025aed11461008c575b600080fd5b610059610054366004610169565b61009f565b005b60025461ffff1660009081526020818152604080832033845290915290205460405190815260200160405180910390f35b61005961009a366004610182565b61011c565b60025461ffff16600090815260208181526040808320338452909152812080548392906100cd9084906101ad565b909155505060025461ffff1660009081526020818152604080832033808552925280832054905190927fc6770c48060ba232e75b45b0c4c47d3dd1115b574020b61e1163849d565147cb91a350565b336001600160a01b037f0000000000000000000000000000000000000000000000000000000000000000161461015157600080fd5b6002805461ffff191661ffff92909216919091179055565b60006020828403121561017b57600080fd5b5035919050565b60006020828403121561019457600080fd5b813561ffff811681146101a657600080fd5b9392505050565b808201808211156101ce57634e487b7160e01b600052601160045260246000fd5b9291505056fea2646970667358221220565b7c6158320ec76e687442c13e6ee6df7093f9e39fb465a1c6335311fa468064736f6c63430008140033",
+        "sourceMap": "223:1440:22:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1006:255;;;;;;:::i;:::-;;:::i;:::-;;1342:142;1459:5;;;;1402:7;1428:37;;;;;;;;;;;1466:10;1428:49;;;;;;;;1342:142;;345:25:24;;;333:2;318:18;1342:142:22;;;;;;;1567:94;;;;;;:::i;:::-;;:::i;1006:255::-;1118:5;;;;1087:30;:37;;;;;;;;;;;1125:10;1087:49;;;;;;;:67;;1140:14;;1087:30;:67;;1140:14;;1087:67;:::i;:::-;;;;-1:-1:-1;;1235:5:22;;;;1204:30;:37;;;;;;;;;;;1242:10;1204:49;;;;;;;;;1169:85;;1204:49;;1169:85;;;1006:255;:::o;1567:94::-;806:10;-1:-1:-1;;;;;820:7:22;806:21;;798:30;;;;;;1638:5:::1;:16:::0;;-1:-1:-1;;1638:16:22::1;;::::0;;;::::1;::::0;;;::::1;::::0;;1567:94::o;14:180:24:-;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:24;;14:180;-1:-1:-1;14:180:24:o;381:272::-;439:6;492:2;480:9;471:7;467:23;463:32;460:52;;;508:1;505;498:12;460:52;547:9;534:23;597:6;590:5;586:18;579:5;576:29;566:57;;619:1;616;609:12;566:57;642:5;381:272;-1:-1:-1;;;381:272:24:o;658:222::-;723:9;;;744:10;;;741:133;;;796:10;791:3;787:20;784:1;777:31;831:4;828:1;821:15;859:4;856:1;849:15;741:133;658:222;;;;:::o",
+        "linkReferences": {},
+        "immutableReferences": {
+            "44640": [
+                {
+                    "start": 295,
+                    "length": 32
+                }
+            ]
+        }
+    },
+    "methodIdentifiers": {
+        "getCarbonFootPrintAvoided()": "497dcf46",
+        "updateCarbonFootprintAvoided(uint256)": "11945f99",
+        "updateToNewYear(uint16)": "9025aed1"
+    },
+    "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"carbonFootprintAvoided\",\"type\":\"uint256\"}],\"name\":\"CarbonFootprintUpdated\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"getCarbonFootPrintAvoided\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_carbonAvoided\",\"type\":\"uint256\"}],\"name\":\"updateCarbonFootprintAvoided\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint16\",\"name\":\"_newYear\",\"type\":\"uint16\"}],\"name\":\"updateToNewYear\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"Antonio Rodr\\u00edguez-Ynyesto\",\"details\":\"Store the carbon footprint avoided by train travelers compared to car or plane\",\"kind\":\"dev\",\"methods\":{\"getCarbonFootPrintAvoided()\":{\"details\":\"Return value\",\"returns\":{\"_0\":\"value of 'number'\"}},\"updateCarbonFootprintAvoided(uint256)\":{\"details\":\"Store value in variable\",\"params\":{\"_carbonAvoided\":\"value to store\"}},\"updateToNewYear(uint16)\":{\"details\":\"Update year\",\"params\":{\"_newYear\":\"the new year\"}}},\"title\":\"CarbonFootprint\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/CarbonFootprintAvoided.sol\":\"CarbonFootprintAvoided\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/CarbonFootprintAvoided.sol\":{\"keccak256\":\"0x9ee8e364ab82d469b8ba0161907480ac1d87178c6342909127e0b4387c82b15f\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://42ca53233187e57584c2bcdff7ad1b6f38526127f9463f56364343ed5ce29fe3\",\"dweb:/ipfs/QmSRw6Ay61Q1rCPsnE59rgjUpjxNqhRExBgA3Lq5q3mNrR\"]}},\"version\":1}",
+    "metadata": {
+        "compiler": {
+            "version": "0.8.20+commit.a1b79de6"
+        },
+        "language": "Solidity",
+        "output": {
+            "abi": [
+                {
+                    "inputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "constructor"
+                },
+                {
+                    "inputs": [
+                        {
+                            "internalType": "address",
+                            "name": "user",
+                            "type": "address",
+                            "indexed": true
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "carbonFootprintAvoided",
+                            "type": "uint256",
+                            "indexed": true
+                        }
+                    ],
+                    "type": "event",
+                    "name": "CarbonFootprintUpdated",
+                    "anonymous": false
+                },
+                {
+                    "inputs": [],
+                    "stateMutability": "view",
+                    "type": "function",
+                    "name": "getCarbonFootPrintAvoided",
+                    "outputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "",
+                            "type": "uint256"
+                        }
+                    ]
+                },
+                {
+                    "inputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "_carbonAvoided",
+                            "type": "uint256"
+                        }
+                    ],
+                    "stateMutability": "nonpayable",
+                    "type": "function",
+                    "name": "updateCarbonFootprintAvoided"
+                },
+                {
+                    "inputs": [
+                        {
+                            "internalType": "uint16",
+                            "name": "_newYear",
+                            "type": "uint16"
+                        }
+                    ],
+                    "stateMutability": "nonpayable",
+                    "type": "function",
+                    "name": "updateToNewYear"
+                }
+            ],
+            "devdoc": {
+                "kind": "dev",
+                "methods": {
+                    "getCarbonFootPrintAvoided()": {
+                        "details": "Return value",
+                        "returns": {
+                            "_0": "value of 'number'"
+                        }
+                    },
+                    "updateCarbonFootprintAvoided(uint256)": {
+                        "details": "Store value in variable",
+                        "params": {
+                            "_carbonAvoided": "value to store"
+                        }
+                    },
+                    "updateToNewYear(uint16)": {
+                        "details": "Update year",
+                        "params": {
+                            "_newYear": "the new year"
+                        }
+                    }
+                },
+                "version": 1
+            },
+            "userdoc": {
+                "kind": "user",
+                "methods": {},
+                "version": 1
+            }
+        },
+        "settings": {
+            "remappings": [
+                "ds-test/=lib/forge-std/lib/ds-test/src/",
+                "forge-std/=lib/forge-std/src/"
+            ],
+            "optimizer": {
+                "enabled": true,
+                "runs": 200
+            },
+            "metadata": {
+                "bytecodeHash": "ipfs"
+            },
+            "compilationTarget": {
+                "src/CarbonFootprintAvoided.sol": "CarbonFootprintAvoided"
+            },
+            "libraries": {}
+        },
+        "sources": {
+            "src/CarbonFootprintAvoided.sol": {
+                "keccak256": "0x9ee8e364ab82d469b8ba0161907480ac1d87178c6342909127e0b4387c82b15f",
+                "urls": [
+                    "bzz-raw://42ca53233187e57584c2bcdff7ad1b6f38526127f9463f56364343ed5ce29fe3",
+                    "dweb:/ipfs/QmSRw6Ay61Q1rCPsnE59rgjUpjxNqhRExBgA3Lq5q3mNrR"
+                ],
+                "license": "GPL-3.0"
+            }
+        },
+        "version": 1
+    },
+    "ast": {
+        "absolutePath": "src/CarbonFootprintAvoided.sol",
+        "id": 44734,
+        "exportedSymbols": {
+            "CarbonFootprintAvoided": [
+                44733
+            ]
+        },
+        "nodeType": "SourceUnit",
+        "src": "37:1627:22",
+        "nodes": [
+            {
+                "id": 44637,
+                "nodeType": "PragmaDirective",
+                "src": "37:24:22",
+                "nodes": [],
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".20"
+                ]
+            },
+            {
+                "id": 44733,
+                "nodeType": "ContractDefinition",
+                "src": "223:1440:22",
+                "nodes": [
+                    {
+                        "id": 44640,
+                        "nodeType": "VariableDeclaration",
+                        "src": "339:25:22",
+                        "nodes": [],
+                        "constant": false,
+                        "mutability": "immutable",
+                        "name": "i_owner",
+                        "nameLocation": "357:7:22",
+                        "scope": 44733,
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                        },
+                        "typeName": {
+                            "id": 44639,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "339:7:22",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "id": 44646,
+                        "nodeType": "VariableDeclaration",
+                        "src": "370:126:22",
+                        "nodes": [],
+                        "constant": false,
+                        "mutability": "mutable",
+                        "name": "s_userToCarbonFootprintAvoided",
+                        "nameLocation": "466:30:22",
+                        "scope": 44733,
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint16_$_t_mapping$_t_address_$_t_uint256_$_$",
+                            "typeString": "mapping(uint16 => mapping(address => uint256))"
+                        },
+                        "typeName": {
+                            "id": 44645,
+                            "keyName": "year",
+                            "keyNameLocation": "385:4:22",
+                            "keyType": {
+                                "id": 44641,
+                                "name": "uint16",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "378:6:22",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint16",
+                                    "typeString": "uint16"
+                                }
+                            },
+                            "nodeType": "Mapping",
+                            "src": "370:79:22",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_mapping$_t_uint16_$_t_mapping$_t_address_$_t_uint256_$_$",
+                                "typeString": "mapping(uint16 => mapping(address => uint256))"
+                            },
+                            "valueName": "",
+                            "valueNameLocation": "-1:-1:-1",
+                            "valueType": {
+                                "id": 44644,
+                                "keyName": "user",
+                                "keyNameLocation": "409:4:22",
+                                "keyType": {
+                                    "id": 44642,
+                                    "name": "address",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "401:7:22",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    }
+                                },
+                                "nodeType": "Mapping",
+                                "src": "393:55:22",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                                    "typeString": "mapping(address => uint256)"
+                                },
+                                "valueName": "carbonFootprintAvoided",
+                                "valueNameLocation": "425:22:22",
+                                "valueType": {
+                                    "id": 44643,
+                                    "name": "uint256",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "417:7:22",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                }
+                            }
+                        },
+                        "visibility": "private"
+                    },
+                    {
+                        "id": 44649,
+                        "nodeType": "VariableDeclaration",
+                        "src": "502:17:22",
+                        "nodes": [],
+                        "constant": false,
+                        "mutability": "mutable",
+                        "name": "s_users",
+                        "nameLocation": "512:7:22",
+                        "scope": 44733,
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                            "typeString": "address[]"
+                        },
+                        "typeName": {
+                            "baseType": {
+                                "id": 44647,
+                                "name": "address",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "502:7:22",
+                                "stateMutability": "nonpayable",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_address",
+                                    "typeString": "address"
+                                }
+                            },
+                            "id": 44648,
+                            "nodeType": "ArrayTypeName",
+                            "src": "502:9:22",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                                "typeString": "address[]"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "id": 44652,
+                        "nodeType": "VariableDeclaration",
+                        "src": "525:27:22",
+                        "nodes": [],
+                        "constant": false,
+                        "mutability": "mutable",
+                        "name": "_year",
+                        "nameLocation": "540:5:22",
+                        "scope": 44733,
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint16",
+                            "typeString": "uint16"
+                        },
+                        "typeName": {
+                            "id": 44650,
+                            "name": "uint16",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "525:6:22",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint16",
+                                "typeString": "uint16"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "32303233",
+                            "id": 44651,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "548:4:22",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_rational_2023_by_1",
+                                "typeString": "int_const 2023"
+                            },
+                            "value": "2023"
+                        },
+                        "visibility": "private"
+                    },
+                    {
+                        "id": 44658,
+                        "nodeType": "EventDefinition",
+                        "src": "610:91:22",
+                        "nodes": [],
+                        "anonymous": false,
+                        "eventSelector": "c6770c48060ba232e75b45b0c4c47d3dd1115b574020b61e1163849d565147cb",
+                        "name": "CarbonFootprintUpdated",
+                        "nameLocation": "616:22:22",
+                        "parameters": {
+                            "id": 44657,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 44654,
+                                    "indexed": true,
+                                    "mutability": "mutable",
+                                    "name": "user",
+                                    "nameLocation": "655:4:22",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 44658,
+                                    "src": "639:20:22",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    },
+                                    "typeName": {
+                                        "id": 44653,
+                                        "name": "address",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "639:7:22",
+                                        "stateMutability": "nonpayable",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 44656,
+                                    "indexed": true,
+                                    "mutability": "mutable",
+                                    "name": "carbonFootprintAvoided",
+                                    "nameLocation": "677:22:22",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 44658,
+                                    "src": "661:38:22",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 44655,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "661:7:22",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "638:62:22"
+                        }
+                    },
+                    {
+                        "id": 44669,
+                        "nodeType": "ModifierDefinition",
+                        "src": "767:79:22",
+                        "nodes": [],
+                        "body": {
+                            "id": 44668,
+                            "nodeType": "Block",
+                            "src": "788:58:22",
+                            "nodes": [],
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "commonType": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                },
+                                                "id": 44664,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftExpression": {
+                                                    "expression": {
+                                                        "id": 44661,
+                                                        "name": "msg",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": -15,
+                                                        "src": "806:3:22",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_magic_message",
+                                                            "typeString": "msg"
+                                                        }
+                                                    },
+                                                    "id": 44662,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "memberLocation": "810:6:22",
+                                                    "memberName": "sender",
+                                                    "nodeType": "MemberAccess",
+                                                    "src": "806:10:22",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address",
+                                                        "typeString": "address"
+                                                    }
+                                                },
+                                                "nodeType": "BinaryOperation",
+                                                "operator": "==",
+                                                "rightExpression": {
+                                                    "id": 44663,
+                                                    "name": "i_owner",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 44640,
+                                                    "src": "820:7:22",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address",
+                                                        "typeString": "address"
+                                                    }
+                                                },
+                                                "src": "806:21:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                }
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_bool",
+                                                    "typeString": "bool"
+                                                }
+                                            ],
+                                            "id": 44660,
+                                            "name": "require",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [
+                                                -18,
+                                                -18
+                                            ],
+                                            "referencedDeclaration": -18,
+                                            "src": "798:7:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                                                "typeString": "function (bool) pure"
+                                            }
+                                        },
+                                        "id": 44665,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "798:30:22",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 44666,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "798:30:22"
+                                },
+                                {
+                                    "id": 44667,
+                                    "nodeType": "PlaceholderStatement",
+                                    "src": "838:1:22"
+                                }
+                            ]
+                        },
+                        "name": "onlyOwner",
+                        "nameLocation": "776:9:22",
+                        "parameters": {
+                            "id": 44659,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "785:2:22"
+                        },
+                        "virtual": false,
+                        "visibility": "internal"
+                    },
+                    {
+                        "id": 44678,
+                        "nodeType": "FunctionDefinition",
+                        "src": "852:51:22",
+                        "nodes": [],
+                        "body": {
+                            "id": 44677,
+                            "nodeType": "Block",
+                            "src": "866:37:22",
+                            "nodes": [],
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 44675,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 44672,
+                                            "name": "i_owner",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 44640,
+                                            "src": "876:7:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "expression": {
+                                                "id": 44673,
+                                                "name": "msg",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": -15,
+                                                "src": "886:3:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_magic_message",
+                                                    "typeString": "msg"
+                                                }
+                                            },
+                                            "id": 44674,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "890:6:22",
+                                            "memberName": "sender",
+                                            "nodeType": "MemberAccess",
+                                            "src": "886:10:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "src": "876:20:22",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "id": 44676,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "876:20:22"
+                                }
+                            ]
+                        },
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "parameters": {
+                            "id": 44670,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "863:2:22"
+                        },
+                        "returnParameters": {
+                            "id": 44671,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "866:0:22"
+                        },
+                        "scope": 44733,
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "id": 44705,
+                        "nodeType": "FunctionDefinition",
+                        "src": "1006:255:22",
+                        "nodes": [],
+                        "body": {
+                            "id": 44704,
+                            "nodeType": "Block",
+                            "src": "1077:184:22",
+                            "nodes": [],
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 44691,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "baseExpression": {
+                                                "baseExpression": {
+                                                    "id": 44684,
+                                                    "name": "s_userToCarbonFootprintAvoided",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 44646,
+                                                    "src": "1087:30:22",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_mapping$_t_uint16_$_t_mapping$_t_address_$_t_uint256_$_$",
+                                                        "typeString": "mapping(uint16 => mapping(address => uint256))"
+                                                    }
+                                                },
+                                                "id": 44688,
+                                                "indexExpression": {
+                                                    "id": 44685,
+                                                    "name": "_year",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 44652,
+                                                    "src": "1118:5:22",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint16",
+                                                        "typeString": "uint16"
+                                                    }
+                                                },
+                                                "isConstant": false,
+                                                "isLValue": true,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "nodeType": "IndexAccess",
+                                                "src": "1087:37:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                                                    "typeString": "mapping(address => uint256)"
+                                                }
+                                            },
+                                            "id": 44689,
+                                            "indexExpression": {
+                                                "expression": {
+                                                    "id": 44686,
+                                                    "name": "msg",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": -15,
+                                                    "src": "1125:3:22",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_magic_message",
+                                                        "typeString": "msg"
+                                                    }
+                                                },
+                                                "id": 44687,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "memberLocation": "1129:6:22",
+                                                "memberName": "sender",
+                                                "nodeType": "MemberAccess",
+                                                "src": "1125:10:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                }
+                                            },
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": true,
+                                            "nodeType": "IndexAccess",
+                                            "src": "1087:49:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "+=",
+                                        "rightHandSide": {
+                                            "id": 44690,
+                                            "name": "_carbonAvoided",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 44681,
+                                            "src": "1140:14:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "1087:67:22",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 44692,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "1087:67:22"
+                                },
+                                {
+                                    "eventCall": {
+                                        "arguments": [
+                                            {
+                                                "expression": {
+                                                    "id": 44694,
+                                                    "name": "msg",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": -15,
+                                                    "src": "1192:3:22",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_magic_message",
+                                                        "typeString": "msg"
+                                                    }
+                                                },
+                                                "id": 44695,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "memberLocation": "1196:6:22",
+                                                "memberName": "sender",
+                                                "nodeType": "MemberAccess",
+                                                "src": "1192:10:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                }
+                                            },
+                                            {
+                                                "baseExpression": {
+                                                    "baseExpression": {
+                                                        "id": 44696,
+                                                        "name": "s_userToCarbonFootprintAvoided",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 44646,
+                                                        "src": "1204:30:22",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_mapping$_t_uint16_$_t_mapping$_t_address_$_t_uint256_$_$",
+                                                            "typeString": "mapping(uint16 => mapping(address => uint256))"
+                                                        }
+                                                    },
+                                                    "id": 44698,
+                                                    "indexExpression": {
+                                                        "id": 44697,
+                                                        "name": "_year",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 44652,
+                                                        "src": "1235:5:22",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_uint16",
+                                                            "typeString": "uint16"
+                                                        }
+                                                    },
+                                                    "isConstant": false,
+                                                    "isLValue": true,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "nodeType": "IndexAccess",
+                                                    "src": "1204:37:22",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                                                        "typeString": "mapping(address => uint256)"
+                                                    }
+                                                },
+                                                "id": 44701,
+                                                "indexExpression": {
+                                                    "expression": {
+                                                        "id": 44699,
+                                                        "name": "msg",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": -15,
+                                                        "src": "1242:3:22",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_magic_message",
+                                                            "typeString": "msg"
+                                                        }
+                                                    },
+                                                    "id": 44700,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "memberLocation": "1246:6:22",
+                                                    "memberName": "sender",
+                                                    "nodeType": "MemberAccess",
+                                                    "src": "1242:10:22",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address",
+                                                        "typeString": "address"
+                                                    }
+                                                },
+                                                "isConstant": false,
+                                                "isLValue": true,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "nodeType": "IndexAccess",
+                                                "src": "1204:49:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            ],
+                                            "id": 44693,
+                                            "name": "CarbonFootprintUpdated",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 44658,
+                                            "src": "1169:22:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$returns$__$",
+                                                "typeString": "function (address,uint256)"
+                                            }
+                                        },
+                                        "id": 44702,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "1169:85:22",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 44703,
+                                    "nodeType": "EmitStatement",
+                                    "src": "1164:90:22"
+                                }
+                            ]
+                        },
+                        "documentation": {
+                            "id": 44679,
+                            "nodeType": "StructuredDocumentation",
+                            "src": "909:91:22",
+                            "text": " @dev Store value in variable\n @param _carbonAvoided value to store"
+                        },
+                        "functionSelector": "11945f99",
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "updateCarbonFootprintAvoided",
+                        "nameLocation": "1015:28:22",
+                        "parameters": {
+                            "id": 44682,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 44681,
+                                    "mutability": "mutable",
+                                    "name": "_carbonAvoided",
+                                    "nameLocation": "1052:14:22",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 44705,
+                                    "src": "1044:22:22",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 44680,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "1044:7:22",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "1043:24:22"
+                        },
+                        "returnParameters": {
+                            "id": 44683,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "1077:0:22"
+                        },
+                        "scope": 44733,
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "external"
+                    },
+                    {
+                        "id": 44719,
+                        "nodeType": "FunctionDefinition",
+                        "src": "1342:142:22",
+                        "nodes": [],
+                        "body": {
+                            "id": 44718,
+                            "nodeType": "Block",
+                            "src": "1411:73:22",
+                            "nodes": [],
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "baseExpression": {
+                                            "baseExpression": {
+                                                "id": 44711,
+                                                "name": "s_userToCarbonFootprintAvoided",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 44646,
+                                                "src": "1428:30:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_mapping$_t_uint16_$_t_mapping$_t_address_$_t_uint256_$_$",
+                                                    "typeString": "mapping(uint16 => mapping(address => uint256))"
+                                                }
+                                            },
+                                            "id": 44713,
+                                            "indexExpression": {
+                                                "id": 44712,
+                                                "name": "_year",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 44652,
+                                                "src": "1459:5:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint16",
+                                                    "typeString": "uint16"
+                                                }
+                                            },
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "nodeType": "IndexAccess",
+                                            "src": "1428:37:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                                                "typeString": "mapping(address => uint256)"
+                                            }
+                                        },
+                                        "id": 44716,
+                                        "indexExpression": {
+                                            "expression": {
+                                                "id": 44714,
+                                                "name": "msg",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": -15,
+                                                "src": "1466:3:22",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_magic_message",
+                                                    "typeString": "msg"
+                                                }
+                                            },
+                                            "id": 44715,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "1470:6:22",
+                                            "memberName": "sender",
+                                            "nodeType": "MemberAccess",
+                                            "src": "1466:10:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "isConstant": false,
+                                        "isLValue": true,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "nodeType": "IndexAccess",
+                                        "src": "1428:49:22",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "functionReturnParameters": 44710,
+                                    "id": 44717,
+                                    "nodeType": "Return",
+                                    "src": "1421:56:22"
+                                }
+                            ]
+                        },
+                        "documentation": {
+                            "id": 44706,
+                            "nodeType": "StructuredDocumentation",
+                            "src": "1267:69:22",
+                            "text": " @dev Return value\n @return value of 'number'"
+                        },
+                        "functionSelector": "497dcf46",
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getCarbonFootPrintAvoided",
+                        "nameLocation": "1351:25:22",
+                        "parameters": {
+                            "id": 44707,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "1376:2:22"
+                        },
+                        "returnParameters": {
+                            "id": 44710,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 44709,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 44719,
+                                    "src": "1402:7:22",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 44708,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "1402:7:22",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "1401:9:22"
+                        },
+                        "scope": 44733,
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "external"
+                    },
+                    {
+                        "id": 44732,
+                        "nodeType": "FunctionDefinition",
+                        "src": "1567:94:22",
+                        "nodes": [],
+                        "body": {
+                            "id": 44731,
+                            "nodeType": "Block",
+                            "src": "1628:33:22",
+                            "nodes": [],
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 44729,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 44727,
+                                            "name": "_year",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 44652,
+                                            "src": "1638:5:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint16",
+                                                "typeString": "uint16"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 44728,
+                                            "name": "_newYear",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 44722,
+                                            "src": "1646:8:22",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint16",
+                                                "typeString": "uint16"
+                                            }
+                                        },
+                                        "src": "1638:16:22",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint16",
+                                            "typeString": "uint16"
+                                        }
+                                    },
+                                    "id": 44730,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "1638:16:22"
+                                }
+                            ]
+                        },
+                        "documentation": {
+                            "id": 44720,
+                            "nodeType": "StructuredDocumentation",
+                            "src": "1490:71:22",
+                            "text": " @dev Update year\n @param _newYear the new year"
+                        },
+                        "functionSelector": "9025aed1",
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [
+                            {
+                                "id": 44725,
+                                "kind": "modifierInvocation",
+                                "modifierName": {
+                                    "id": 44724,
+                                    "name": "onlyOwner",
+                                    "nameLocations": [
+                                        "1618:9:22"
+                                    ],
+                                    "nodeType": "IdentifierPath",
+                                    "referencedDeclaration": 44669,
+                                    "src": "1618:9:22"
+                                },
+                                "nodeType": "ModifierInvocation",
+                                "src": "1618:9:22"
+                            }
+                        ],
+                        "name": "updateToNewYear",
+                        "nameLocation": "1576:15:22",
+                        "parameters": {
+                            "id": 44723,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 44722,
+                                    "mutability": "mutable",
+                                    "name": "_newYear",
+                                    "nameLocation": "1599:8:22",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 44732,
+                                    "src": "1592:15:22",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint16",
+                                        "typeString": "uint16"
+                                    },
+                                    "typeName": {
+                                        "id": 44721,
+                                        "name": "uint16",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "1592:6:22",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint16",
+                                            "typeString": "uint16"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "1591:17:22"
+                        },
+                        "returnParameters": {
+                            "id": 44726,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "1628:0:22"
+                        },
+                        "scope": 44733,
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "external"
+                    }
+                ],
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "CarbonFootprintAvoided",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "documentation": {
+                    "id": 44638,
+                    "nodeType": "StructuredDocumentation",
+                    "src": "63:158:22",
+                    "text": " @author Antonio Rodríguez-Ynyesto\n @title CarbonFootprint\n @dev Store the carbon footprint avoided by train travelers compared to car or plane"
+                },
+                "fullyImplemented": true,
+                "linearizedBaseContracts": [
+                    44733
+                ],
+                "name": "CarbonFootprintAvoided",
+                "nameLocation": "232:22:22",
+                "scope": 44734,
+                "usedErrors": [],
+                "usedEvents": [
+                    44658
+                ]
+            }
+        ],
+        "license": "GPL-3.0"
+    },
+    "id": 22
+}

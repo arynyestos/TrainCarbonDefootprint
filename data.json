@@ -1,0 +1,72 @@
+{
+    "smartContractAddress": "0x2732bAbD3F4DA9d253B7c03fc2A8d1C1DbADE5a2",
+    "cities": [
+        "Madrid",
+        "Barcelona",
+        "Valencia",
+        "Seville",
+        "Saragossa"
+    ],
+    "routes": [
+        {
+            "origin": "Madrid",
+            "destination": "Barcelona",
+            "planeFootprint": 97.09,
+            "trainFootprint": 12.14
+        },
+        {
+            "origin": "Madrid",
+            "destination": "Valencia",
+            "planeFootprint": 58.09,
+            "trainFootprint": 7.26
+        },
+        {
+            "origin": "Madrid",
+            "destination": "Seville",
+            "planeFootprint": 75.02,
+            "trainFootprint": 9.38
+        },
+        {
+            "origin": "Madrid",
+            "destination": "Saragossa",
+            "planeFootprint": 52.55,
+            "trainFootprint": 6.57
+        },
+        {
+            "origin": "Barcelona",
+            "destination": "Valencia",
+            "planeFootprint": 58.22,
+            "trainFootprint": 7.28
+        },
+        {
+            "origin": "Barcelona",
+            "destination": "Seville",
+            "planeFootprint": 159.44,
+            "trainFootprint": 19.93
+        },
+        {
+            "origin": "Barcelona",
+            "destination": "Saragossa",
+            "planeFootprint": 49.22,
+            "trainFootprint": 6.15
+        },
+        {
+            "origin": "Valencia",
+            "destination": "Seville",
+            "planeFootprint": 103.92,
+            "trainFootprint": 12.99
+        },
+        {
+            "origin": "Valencia",
+            "destination": "Saragossa",
+            "planeFootprint": 47.3,
+            "trainFootprint": 5.91
+        },
+        {
+            "origin": "Seville",
+            "destination": "Saragossa",
+            "planeFootprint": 123.96,
+            "trainFootprint": 15.5
+        }
+    ]
+}
