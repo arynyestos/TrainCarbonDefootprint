@@ -20,10 +20,11 @@ This repository contains the front-end application built using React and Tailwin
 - Real-time Data Updates: Instantly reflects the latest carbon footprint savings stored on the blockchain, ensuring real-time updates on the front end.
 
 ## Technology Stack
-- Front-end Framework: React.js
+- Smart contract development and testing: Foundry
+- Smart contract programming language: Solidity
+- Front-end framework: React.js
 - Styling: Tailwind CSS
 - Blockchain: Sepolia
-- Smart Contract: Solidity
   
 ## Future Improvements
 Of course, this is just a POC, which is why only five cities (i. e. ten possible routes) are provided and the carbon footprint data is stored in a JSON file; on a real use case not only would these data be stored on a database, but also the transactions would not be sent by the user on a web app, but perhaps by scanning a QR code inside the train through a mobile app, for instance.
